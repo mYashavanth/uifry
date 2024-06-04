@@ -22,7 +22,7 @@ export default function AboutUs() {
         <Heading size={"xl"}>say about us?</Heading>
       </Center>
       <Box
-        border={"1px solid black"}
+        // border={"1px solid black"}
         className={styles.container}
         px={{ base: "1%", md: "3%", lg: "5%", xl: "8%" }}
         position={"relative"}
@@ -58,7 +58,7 @@ export default function AboutUs() {
           position={"relative"}
           h={{ base: "360px", md: "550px", lg: "600px", xl: "600px" }}
           w={{ base: "360px", md: "550px", lg: "600px", xl: "600px" }}
-          border={"1px solid black"}
+          // border={"1px solid black"}
           m={"auto"}
         >
           <Image
@@ -74,7 +74,7 @@ export default function AboutUs() {
         <Box
           className={styles.right}
           m={"auto"}
-          border={"1px solid black"}
+          // border={"1px solid black"}
           p={"2rem"}
         >
           <Box

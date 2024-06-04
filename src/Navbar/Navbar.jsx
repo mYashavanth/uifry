@@ -35,13 +35,16 @@ export default function Navbar() {
       px={"10%"}
       py={{ base: "0rem", sm: "0rem", md: "1rem", lg: "1rem" }}
       m={"auto"}
-      border={"1px solid black"}
+      // border={"1px solid black"}
+      boxShadow={
+        "rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px"
+      }
       gap={"2rem"}
     >
       <Center gap={"4rem"}>
         <Center w={{ base: "4rem", sm: "5rem", md: "8rem", lg: "10rem" }}>
-          <Link to="home" spy={true} smooth={true} offset={-75} duration={800}>
-            <Image src={logo} alt="logo"   />
+          <Link to="home" spy={true} smooth={true} offset={-82} duration={500}>
+            <Image src={logo} alt="logo" />
           </Link>
         </Center>
         <Center
@@ -53,8 +56,8 @@ export default function Navbar() {
             to="home"
             spy={true}
             smooth={true}
-            offset={-75}
-            duration={800}
+            offset={-82.5}
+            duration={500}
             style={{ cursor: "pointer" }}
             activeStyle={{
               color: isDarkMode ? "wheat" : "#E84D4D",
@@ -69,8 +72,8 @@ export default function Navbar() {
             to="features"
             spy={true}
             smooth={true}
-            offset={-75}
-            duration={800}
+            offset={-81.5}
+            duration={600}
             style={{ cursor: "pointer" }}
             activeStyle={{
               color: isDarkMode ? "wheat" : "#E84D4D",
@@ -85,8 +88,8 @@ export default function Navbar() {
             to="advantages"
             spy={true}
             smooth={true}
-            offset={-75}
-            duration={800}
+            offset={-81.5}
+            duration={500}
             style={{ cursor: "pointer" }}
             activeStyle={{
               color: isDarkMode ? "wheat" : "#E84D4D",
@@ -101,8 +104,8 @@ export default function Navbar() {
             to="aboutus"
             spy={true}
             smooth={true}
-            offset={-75}
-            duration={800}
+            offset={-81.5}
+            duration={600}
             style={{ cursor: "pointer" }}
             activeStyle={{
               color: isDarkMode ? "wheat" : "#E84D4D",
@@ -117,8 +120,8 @@ export default function Navbar() {
             to="faq"
             spy={true}
             smooth={true}
-            offset={-75}
-            duration={800}
+            offset={-81.5}
+            duration={500}
             style={{ cursor: "pointer" }}
             activeStyle={{
               color: isDarkMode ? "wheat" : "#E84D4D",
@@ -175,8 +178,8 @@ export default function Navbar() {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={-75}
-                duration={800}
+                offset={-82}
+                duration={500}
               >
                 <MenuItem backgroundColor={"transparent"}>
                   <Box display={"flex"} alignItems={"center"} gap={2}>
@@ -188,8 +191,8 @@ export default function Navbar() {
                 to="features"
                 spy={true}
                 smooth={true}
-                offset={-75}
-                duration={800}
+                offset={-82}
+                duration={500}
               >
                 <MenuItem backgroundColor={"transparent"}>
                   <Box display={"flex"} alignItems={"center"} gap={2}>
@@ -201,8 +204,8 @@ export default function Navbar() {
                 to="advantages"
                 spy={true}
                 smooth={true}
-                offset={-75}
-                duration={800}
+                offset={-82}
+                duration={500}
               >
                 <MenuItem backgroundColor={"transparent"}>
                   <Box display={"flex"} alignItems={"center"} gap={2}>
@@ -214,8 +217,8 @@ export default function Navbar() {
                 to="aboutus"
                 spy={true}
                 smooth={true}
-                offset={-75}
-                duration={800}
+                offset={-82}
+                duration={500}
               >
                 <MenuItem backgroundColor={"transparent"}>
                   <Box display={"flex"} alignItems={"center"} gap={2}>
@@ -227,8 +230,8 @@ export default function Navbar() {
                 to="faq"
                 spy={true}
                 smooth={true}
-                offset={-75}
-                duration={800}
+                offset={-82}
+                duration={500}
               >
                 <MenuItem backgroundColor={"transparent"}>
                   <Box display={"flex"} alignItems={"center"} gap={2}>

@@ -15,19 +15,33 @@ export default function Advantages() {
   return (
     <Element name="advantages">
       <Box
-        border={"1px solid black"}
+        // border={"1px solid black"}
         px={{ base: "1%", md: "3%", lg: "5%", xl: "8%" }}
         position={"relative"}
         bgColor={isDarkMode ? "gray.400" : "white"}
       >
         <Box className={styles.container1}>
           <Image src={star} alt="star" position={"absolute"} top={"5%"} />
-          <Image src={star} alt="star" position={"absolute"} top={"50%"} right={"45%"} w={"50px"} />
-          <Image src={star} alt="star" position={"absolute"} bottom={"2%"} right={"2%"} w={"50px"} />
+          <Image
+            src={star}
+            alt="star"
+            position={"absolute"}
+            top={"50%"}
+            right={"45%"}
+            w={"50px"}
+          />
+          <Image
+            src={star}
+            alt="star"
+            position={"absolute"}
+            bottom={"2%"}
+            right={"2%"}
+            w={"50px"}
+          />
           <Box
             className={styles.left1}
             m={"auto"}
-            border={"1px solid black"}
+            // border={"1px solid black"}
             p={"2rem"}
           >
             <Heading
@@ -35,7 +49,7 @@ export default function Advantages() {
               zIndex={2}
               color={isDarkMode ? "wheat" : "#E84D4D"}
             >
-              FEATURES
+              ADVANTAGES
             </Heading>
             <Heading size={"xl"} zIndex={2}>
               Why Choose Uifry?
@@ -64,7 +78,7 @@ export default function Advantages() {
             position={"relative"}
             h={{ base: "360px", md: "550px", lg: "600px", xl: "600px" }}
             w={{ base: "360px", md: "550px", lg: "600px", xl: "600px" }}
-            border={"1px solid black"}
+            // border={"1px solid black"}
             m={"auto"}
           >
             <Image
@@ -84,7 +98,7 @@ export default function Advantages() {
             position={"relative"}
             h={{ base: "360px", md: "550px", lg: "600px", xl: "600px" }}
             w={{ base: "360px", md: "550px", lg: "600px", xl: "600px" }}
-            border={"1px solid black"}
+            // border={"1px solid black"}
             m={"auto"}
           >
             <Image
@@ -100,7 +114,7 @@ export default function Advantages() {
           <Box
             className={styles.right2}
             m={"auto"}
-            border={"1px solid black"}
+            // border={"1px solid black"}
             p={"2rem"}
           >
             <Box zIndex={2} position={"relative"}>
