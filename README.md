@@ -51,6 +51,7 @@ You can also view the deployed application [here](https://uifry-pied-two.vercel.
 - CSS
 - JavaScript
 - React
+- Context-API
 - Chakra UI
 - React Scroll
 - React Icons
