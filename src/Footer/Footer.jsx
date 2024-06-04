@@ -80,7 +80,7 @@ export default function Footer() {
         </Box>
       </Box>
       <Center p={"1rem"} borderTop={"1px solid gray"}>
-        <Text>Copyright 2022 uifry.com all rights reserved yash</Text>
+        <Text>Copyright 2022 uifry.com all rights reserved</Text>
       </Center>
     </Box>
   );
