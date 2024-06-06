@@ -1,4 +1,12 @@
-import { Box, Button, Center, Heading, Image, Input, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Center,
+  Heading,
+  Image,
+  Input,
+  Text,
+} from "@chakra-ui/react";
 import React, { useContext } from "react";
 import { ThemeContext } from "../ThemeContext/ThemeContextProvider";
 import logo from "../Images/NavbarImages/logo.png";
@@ -31,6 +39,7 @@ export default function Footer() {
         }}
         justifyContent={"space-between"}
         gap={"1rem"}
+        p={{ base: "2rem", md: "1rem", lg: "0rem", xl: "0rem" }}
       >
         <Box display={"flex"} flexDirection={"column"} gap={"1rem"}>
           <Image src={logo} alt="logo" w={"100px"} />
@@ -72,7 +81,10 @@ export default function Footer() {
               colorScheme={"gray"}
               bgColor={isDarkMode ? "" : "black"}
               color={isDarkMode ? "black" : "white"}
-              _hover={{ bgColor: "gray", color:  isDarkMode ? "white" : "black" }}
+              _hover={{
+                bgColor: "gray",
+                color: isDarkMode ? "white" : "black",
+              }}
             >
               Subscribe
             </Button>
